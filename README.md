@@ -1,2 +1,2 @@
 # looker-vertex-agent
-Bild an Agent in Vertex AI for Looker
+Build an Agent in Vertex AI for Looker
