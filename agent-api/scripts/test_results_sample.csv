@@ -1,0 +1,4 @@
+question_number,question,category,difficulty,answer,session_id,timestamp,response_time_ms
+1,What is Looker?,Looker,Easy,ERROR: Failed to get response,test-1-1741840710,2025-03-12T23:38:30.854937,27
+2,What is a LookML project?,Looker,Easy,ERROR: Failed to get response,test-2-1741840711,2025-03-12T23:38:31.863268,1
+3,What are Explores in Looker?,Looker,Easy,ERROR: Failed to get response,test-3-1741840712,2025-03-12T23:38:32.869862,1

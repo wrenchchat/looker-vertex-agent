@@ -1,0 +1,121 @@
+question_number,question,category,difficulty,answer,session_id,timestamp,response_time_ms
+1,What is Looker?,Looker,Easy,"Agent API call failed with status code 403: {
+  ""error"": {
+    ""code"": 403,
+    ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."",
+    ""status"": ""PERMISSION_DENIED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""SERVICE_DISABLED"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""dialogflow.googleapis.com"",
+          ""consumer"": ""projects/32555940559""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds .""
+      }
+    ]
+  }
+}
+",user-auth-test-1-1741841628,2025-03-12T23:53:48.514427,446
+2,What is a LookML project?,Looker,Easy,"Agent API call failed with status code 403: {
+  ""error"": {
+    ""code"": 403,
+    ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."",
+    ""status"": ""PERMISSION_DENIED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""SERVICE_DISABLED"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""dialogflow.googleapis.com"",
+          ""consumer"": ""projects/32555940559""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds .""
+      }
+    ]
+  }
+}
+",user-auth-test-2-1741841629,2025-03-12T23:53:49.972847,452
+3,What are Explores in Looker?,Looker,Easy,"Agent API call failed with status code 403: {
+  ""error"": {
+    ""code"": 403,
+    ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."",
+    ""status"": ""PERMISSION_DENIED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""SERVICE_DISABLED"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""dialogflow.googleapis.com"",
+          ""consumer"": ""projects/32555940559""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds .""
+      }
+    ]
+  }
+}
+",user-auth-test-3-1741841630,2025-03-12T23:53:51.463471,485
+4,Can I create visualizations in Looker? Give an example.,Looker,Easy,"Agent API call failed with status code 403: {
+  ""error"": {
+    ""code"": 403,
+    ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."",
+    ""status"": ""PERMISSION_DENIED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""SERVICE_DISABLED"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""service"": ""dialogflow.googleapis.com"",
+          ""consumer"": ""projects/32555940559""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds .""
+      }
+    ]
+  }
+}
+",user-auth-test-4-1741841632,2025-03-12T23:53:52.971646,502
+5,What is a dashboard in Looker?,Looker,Easy,"Agent API call failed with status code 403: {
+  ""error"": {
+    ""code"": 403,
+    ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds ."",
+    ""status"": ""PERMISSION_DENIED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.ErrorInfo"",
+        ""reason"": ""SERVICE_DISABLED"",
+        ""domain"": ""googleapis.com"",
+        ""metadata"": {
+          ""consumer"": ""projects/32555940559"",
+          ""service"": ""dialogflow.googleapis.com""
+        }
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.LocalizedMessage"",
+        ""locale"": ""en-US"",
+        ""message"": ""Your application is authenticating by using local Application Default Credentials. The dialogflow.googleapis.com API requires a quota project, which is not set by default. To learn how to set your quota project, see https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds .""
+      }
+    ]
+  }
+}
+",user-auth-test-5-1741841633,2025-03-12T23:53:54.417437,444

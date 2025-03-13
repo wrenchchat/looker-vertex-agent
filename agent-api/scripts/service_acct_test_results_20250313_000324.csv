@@ -1,0 +1,99 @@
+question_number,question,category,difficulty,answer,session_id,timestamp,response_time_ms
+1,What is Looker?,Looker,Easy,"Looker is a business intelligence platform that helps organizations explore and analyze their data. It's known for its powerful data modeling capabilities, intuitive user interface, and ability to create interactive dashboards and reports.",service-acct-test-1-1741842204,2025-03-13T00:03:25.137255,837
+2,What is a LookML project?,Looker,Easy,"I can help with that!  A LookML project is a collection of files that define the structure and logic of your data in Looker. It's like a blueprint for how Looker understands and presents your data.  Think of it as a way to organize your data into meaningful dimensions and measures, making it easier to analyze and visualize.  Would you like to know more about LookML projects?",service-acct-test-2-1741842206,2025-03-13T00:03:27.242547,1102
+3,What are Explores in Looker?,Looker,Easy,"I can help with that! Explores in Looker are interactive dashboards that allow you to explore your data in a visual and intuitive way. They are built using LookML, Looker's modeling language, and provide a powerful way to analyze your data and gain insights.
+Would you like to know more about Explores, or perhaps how to create one?",service-acct-test-3-1741842208,2025-03-13T00:03:29.380956,1132
+4,Can I create visualizations in Looker? Give an example.,Looker,Easy,"Looker is primarily a data exploration and analysis platform, not a visualization tool. While you can create basic charts and tables within Looker, it's not designed for creating highly customized or interactive visualizations. For that, you might want to consider using Looker Studio (formerly Data Studio) or other visualization tools.
+Would you like me to explain more about Looker Studio?",service-acct-test-4-1741842210,2025-03-13T00:03:31.562533,1178
+5,What is a dashboard in Looker?,Looker,Easy,"A dashboard in Looker is a visual representation of your data that allows you to monitor key metrics and trends at a glance. It's like a control panel for your business, providing insights into your performance and helping you make informed decisions.
+
+Think of it as a collection of charts, graphs, and tables that are organized in a way that makes sense for your specific needs. You can customize dashboards to display the information that's most important to you, and you can share them with others in your organization.
+Would you like to know more about dashboards in Looker, or would you like to explore other aspects of Looker?",service-acct-test-5-1741842212,2025-03-13T00:03:33.849716,1281
+6,How does Looker differ from Looker Studio?,Looker,Easy,"That's a great question! Looker and Looker Studio are both powerful data visualization tools from Google, but they serve different purposes.
+
+Looker is a more comprehensive business intelligence platform that focuses on data modeling, analysis, and reporting. It allows you to create complex data models using LookML, a specialized language, and provides advanced features for data exploration, collaboration, and data governance.
+
+Looker Studio, formerly known as Data Studio, is a free, user-friendly tool for creating interactive dashboards and reports. It's designed for quick visualization and sharing of data, and it connects to a wide range of data sources.
+Would you like me to elaborate on any specific aspect of Looker or Looker Studio?",service-acct-test-6-1741842214,2025-03-13T00:03:36.298737,1443
+7,What are the main components of a LookML model file?,Looker,Easy,"I can help with that!  Let me connect you with Fran, our LookML expert. Fran can provide you with detailed information about the components of a LookML model file.  Would you like me to do that?",service-acct-test-7-1741842217,2025-03-13T00:03:38.269143,964
+8,How can I schedule a report to be sent via email in Looker?,Looker,Easy,"I can help with that!  Looker offers a powerful scheduling feature for reports.  To schedule a report to be sent via email, you'll need to follow these steps:
+
+1. **Open the report you want to schedule.**
+2. **Click the ""Schedule"" button in the top right corner of the report.**
+3. **Choose the frequency for your report (e.g., daily, weekly, monthly).**
+4. **Select the email recipients for the report.**
+5. **Set the time for the report to be sent.**
+6. **Click ""Save"" to confirm your schedule.**
+Would you like me to provide you with more detailed instructions or a code example?",service-acct-test-8-1741842219,2025-03-13T00:03:40.650933,1375
+9,What's the difference between a measure and a dimension in LookML?,Looker,Easy,"That's a great question!  I can help you with that.  Let me introduce you to Fran, our LookML expert.  Fran can provide you with a detailed explanation of the differences between measures and dimensions in LookML, along with examples to illustrate the concepts.  Would you like me to connect you with Fran?",service-acct-test-9-1741842221,2025-03-13T00:03:42.674264,1021
+10,How do I create a filter on a Looker dashboard?,Looker,Easy,"I can help with that!  I'll route you to Quentin, our Looker Studio expert. He can provide you with detailed instructions and best practices for creating filters on your dashboards.  Is that okay with you?",service-acct-test-10-1741842223,2025-03-13T00:03:44.637305,961
+11,Explain the concept of symmetric aggregates in Looker.,Looker,Easy,"I can definitely help with that!  Let me introduce you to ""Fran,"" our Looker expert. Fran can provide you with a detailed explanation of symmetric aggregates and how they work in Looker.  Would you like me to connect you with Fran?",service-acct-test-11-1741842225,2025-03-13T00:03:46.592224,949
+12,How can I use liquid templating in LookML?  Give an example.,Looker,Easy,"I can help with that!  Liquid templating is a powerful feature in LookML that allows you to dynamically generate LookML code based on variables and conditions.  This can be very useful for creating reusable components, managing complex data models, and simplifying your LookML code.
+
+Here's an example of how you can use liquid templating to create a reusable view:
+
+```lookml
+view: my_view {
+  # Define a variable to hold the table name
+  sql_table_name: ""{{ table_name }}""
+
+  # Use the variable in the sql statement
+  sql: SELECT * FROM {{ sql_table_name }}
+
+  # Define a dimension for the view
+  dimension: my_dimension {
+    type: string
+    sql: {{ sql_table_name }}.my_column
+  }
+}
+```
+
+In this example, the `sql_table_name` variable is used to dynamically set the table name in the `sql` statement and the `dimension` definition.  You can then use this view with different table names by simply passing the desired table name as a parameter.
+
+For example, to use the view with the table `orders`, you would use the following code:
+
+```lookml
+view: my_view {
+  sql_table_name: ""orders""
+}
+```
+
+And to use the view with the table `products`, you would use the following code:
+
+```lookml
+view: my_view {
+  sql_table_name: ""products""
+}
+```
+This is just a simple example, but liquid templating can be used in many different ways to create more complex and reusable LookML code.  Let me know if you have any other questions about liquid templating or LookML in general.",service-acct-test-12-1741842227,2025-03-13T00:03:49.956468,2361
+13,How can I implement row-level security in Looker?,Looker,Easy,"I can help with that!  Row-level security in Looker is a powerful feature that allows you to control which data users can see based on their individual permissions.  To implement it, you'll need to use LookML's `access_filter` and `view_label` features.  Would you like me to walk you through an example of how to implement row-level security in LookML?",service-acct-test-13-1741842230,2025-03-13T00:03:51.960903,1003
+14,"What are persistent derived tables (PDTs), and how do they improve performance?",Looker,Easy,"I can help with that! Persistent Derived Tables (PDTs) are a powerful feature in BigQuery that can significantly improve query performance. They allow you to pre-compute complex queries and store the results as a virtual table. This means that when you run a query that uses a PDT, BigQuery doesn't have to re-compute the entire query every time. Instead, it can simply access the pre-computed results from the PDT, which is much faster.
+
+Here's a breakdown of how PDTs work and their benefits:
+
+* **Pre-computed Results:** PDTs store the results of a complex query, eliminating the need to re-compute the query every time it's used.
+* **Virtual Table:** PDTs are virtual tables, meaning they don't physically store the data. They simply point to the pre-computed results.
+* **Improved Performance:** By accessing pre-computed results, queries using PDTs can run significantly faster, especially for complex queries that involve aggregations, joins, or window functions.
+* **Data Freshness:** You can control the freshness of PDTs by setting a refresh schedule. This ensures that the data in the PDT is up-to-date.
+Would you like to know more about PDTs, or would you like to explore other BigQuery features?",service-acct-test-14-1741842232,2025-03-13T00:03:54.928533,1961
+15,Describe how to use the Looker API to embed a dashboard in another application.,Looker,Easy,"I can help with that!  I'll route you to a specialist who can provide detailed instructions on using the Looker API to embed dashboards.  Let me connect you with ""Fran"", our Looker expert.  They'll be able to give you the best guidance on this.",service-acct-test-15-1741842235,2025-03-13T00:03:57.004231,1070
+16,How can I optimize a LookML model for a very large dataset with billions of rows?,Looker,Easy,"That's a great question! I can help you with that.  It sounds like you're looking for ways to improve the performance of your LookML model when working with a massive dataset.  Let me connect you with Fran, our LookML expert, who can provide you with specific guidance and code examples.  Would that be helpful?",service-acct-test-16-1741842238,2025-03-13T00:03:59.043185,1037
+17,"Explain the difference between incremental PDTs and regular PDTs, and when you would use each.",Looker,Easy,"I can help with that!  Let's break down the differences between incremental PDTs and regular PDTs in Looker.
+
+* **Regular PDTs** (Persistent Derived Tables) are like snapshots of your data at a specific point in time. They're great for capturing a static view of your data, but they don't automatically update with new data.
+* **Incremental PDTs** are designed to be updated with new data as it arrives. They're like a rolling window of your data, always reflecting the latest changes.
+
+Here's when you'd use each:
+
+* **Regular PDTs:**
+    * When you need a static view of your data at a specific point in time.
+    * When you want to avoid the overhead of constantly updating a PDT.
+    * When you're working with data that doesn't change frequently.
+* **Incremental PDTs:**
+    * When you need to track changes in your data over time.
+    * When you're working with data that changes frequently.
+    * When you want to avoid having to manually refresh your PDTs.
+Would you like me to provide any specific examples of how to implement each type of PDT in LookML?",service-acct-test-17-1741842240,2025-03-13T00:04:01.986570,1937
+18,"How can I debug a ""fanout"" issue in Looker when joining multiple tables?",Looker,Easy,"I can help with that! It sounds like you're encountering a performance issue related to Looker's ""fanout"" behavior when joining multiple tables.  Let me connect you with Fran, our Looker expert, who can provide more specific guidance on debugging this type of issue.  Would that be helpful?",service-acct-test-18-1741842242,2025-03-13T00:04:03.954313,962
+19,How can I create a custom visualization in Looker using a JavaScript library like D3.js?,Looker,Easy,"That's a great question!  While Looker itself doesn't directly support embedding custom JavaScript libraries like D3.js for visualizations, there are a few workarounds you can explore.  Let me connect you with a specialist who can provide more detailed guidance on this.  Would you like to be transferred to a Looker expert?",service-acct-test-19-1741842244,2025-03-13T00:04:06.048175,1089
+20,Describe how to set up and manage a multi-instance Looker deployment for high availability.,Looker,Easy,"I can definitely help with that!  Setting up a multi-instance Looker deployment for high availability is a great way to ensure your Looker instance is always available and performing optimally.  Let me connect you with Fran, our Looker expert, who can provide detailed guidance on this topic.  Fran can provide specific instructions and best practices for setting up and managing a multi-instance Looker deployment.  Would you like me to connect you with Fran?",service-acct-test-20-1741842247,2025-03-13T00:04:08.166795,1113

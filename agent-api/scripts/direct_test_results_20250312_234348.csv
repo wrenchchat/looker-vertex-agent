@@ -1,0 +1,41 @@
+question_number,question,category,difficulty,answer,session_id,timestamp,response_time_ms
+1,What is Looker?,Looker,Easy,"Agent API call failed with status code 404: {
+  ""error"": {
+    ""code"": 404,
+    ""message"": ""com.google.apps.framework.request.NotFoundException: Agent '8285e0d0-24ae-43e9-8491-b0bd99befc87' does not exist in the project."",
+    ""status"": ""NOT_FOUND""
+  }
+}
+",direct-test-1-1741841028,2025-03-12T23:43:48.975653,305
+2,What is a LookML project?,Looker,Easy,"Agent API call failed with status code 404: {
+  ""error"": {
+    ""code"": 404,
+    ""message"": ""com.google.apps.framework.request.NotFoundException: Agent '8285e0d0-24ae-43e9-8491-b0bd99befc87' does not exist in the project."",
+    ""status"": ""NOT_FOUND""
+  }
+}
+",direct-test-2-1741841029,2025-03-12T23:43:50.357279,376
+3,What are Explores in Looker?,Looker,Easy,"Agent API call failed with status code 404: {
+  ""error"": {
+    ""code"": 404,
+    ""message"": ""com.google.apps.framework.request.NotFoundException: Agent '8285e0d0-24ae-43e9-8491-b0bd99befc87' does not exist in the project."",
+    ""status"": ""NOT_FOUND""
+  }
+}
+",direct-test-3-1741841031,2025-03-12T23:43:51.618750,257
+4,Can I create visualizations in Looker? Give an example.,Looker,Easy,"Agent API call failed with status code 404: {
+  ""error"": {
+    ""code"": 404,
+    ""message"": ""com.google.apps.framework.request.NotFoundException: Agent '8285e0d0-24ae-43e9-8491-b0bd99befc87' does not exist in the project."",
+    ""status"": ""NOT_FOUND""
+  }
+}
+",direct-test-4-1741841032,2025-03-12T23:43:53.021601,398
+5,What is a dashboard in Looker?,Looker,Easy,"Agent API call failed with status code 404: {
+  ""error"": {
+    ""code"": 404,
+    ""message"": ""com.google.apps.framework.request.NotFoundException: Agent '8285e0d0-24ae-43e9-8491-b0bd99befc87' does not exist in the project."",
+    ""status"": ""NOT_FOUND""
+  }
+}
+",direct-test-5-1741841034,2025-03-12T23:43:54.411900,387

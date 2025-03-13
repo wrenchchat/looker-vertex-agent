@@ -1,0 +1,9 @@
+question_number,question,category,difficulty,answer,session_id,timestamp,response_time_ms
+1,What is Looker?,Looker,Easy,"Looker is a business intelligence platform that helps organizations explore and analyze their data. It's known for its powerful data modeling capabilities, intuitive user interface, and ability to create interactive dashboards and reports.",service-acct-test-1-1741841941,2025-03-12T23:59:01.962399,939
+2,What is a LookML project?,Looker,Easy,"I can help with that!  A LookML project is a collection of files that define the structure and logic of your data in Looker. It's like a blueprint for how Looker understands and presents your data.  Think of it as a way to organize your data into meaningful dimensions and measures, making it easier to analyze and visualize.  Would you like to know more about LookML projects?",service-acct-test-2-1741841942,2025-03-12T23:59:04.157318,1189
+3,What are Explores in Looker?,Looker,Easy,"Explores in Looker are interactive data exploration tools that allow you to analyze your data without writing any code. They provide a user-friendly interface for filtering, sorting, and visualizing your data. You can use Explores to:
+
+* **Discover insights:** Quickly explore your data and identify trends and patterns.
+* **Create visualizations:** Build charts, graphs, and tables to represent your data visually.
+* **Share your findings:** Easily share your insights with others by creating dashboards and reports.
+Would you like to know more about Explores, or would you like to explore a different topic related to Looker?",service-acct-test-3-1741841945,2025-03-12T23:59:06.499165,1337
