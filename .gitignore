@@ -279,3 +279,7 @@ jspm_packages/
 
 # Google Cloud
 .gcloudignore
+
+# Environment variables
+*.env
+agent-api/.env
