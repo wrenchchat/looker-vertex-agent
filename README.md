@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Looker Vertex AI Agent
 
 A conversational AI agent built on Google's Vertex AI platform, specializing in Looker, BigQuery, and data analytics assistance.
@@ -87,3 +88,7 @@ python run_test_questions.py
 
 - Google Cloud Vertex AI team
 - Looker documentation contributors
+=======
+# looker-vertex-agent
+Build an Agent in Vertex AI for Looker
+>>>>>>> 5131f4ceb2d457dc9be5e4a30af7475baf462244
