@@ -190,32 +190,32 @@
 ---
 **Omni**
 **Easy**
-1. What is BigQuery Omni?
-2. What data sources can BigQuery Omni connect to?
-3. What are the benefits of using BigQuery Omni?
-4. Is BigQuery Omni a separate product from BigQuery?
-5. How do I access BigQuery Omni?
+1. What is Omni Analytics and what type of product is it?
+2. What data sources can Omni connect to?
+3. How does Omni's user interface allow different ways to interact with data?
+4. What is a workbook in Omni?
+5. Can Omni be used for embedded analytics?
 
 **Medium**
-1. How does BigQuery Omni differ from other cross-cloud data warehousing solutions?
-2. How does data transfer work in BigQuery Omni?
-3. What are the security considerations when using BigQuery Omni?
-4. How does pricing work for BigQuery Omni?
-5. What is the difference between a local table and an external table in Omni?
+1. How does Omni's semantic layer help maintain data consistency?
+2. What are the key differences between Omni and traditional BI tools?
+3. How does Omni integrate with dbt?
+4. What security features does Omni offer for data access control?
+5. How can teams collaborate on data analysis in Omni?
 
 **Difficult**
-1. Explain how BigQuery Omni leverages Anthos for cross-cloud connectivity.
-2. How can I optimize query performance when using BigQuery Omni?
-3. Describe how to manage user access and permissions in BigQuery Omni.
-4. How can I use BigQuery Omni to join data from different cloud providers?
-5. How can BigQuery Omni connect to Azure?
+1. Explain how to build a custom data model in Omni.
+2. How can you implement row-level security in Omni?
+3. What approaches does Omni offer for handling complex calculations?
+4. How can you optimize query performance in Omni?
+5. Describe the process of embedding Omni analytics into a customer-facing application.
 
 **Extremely Difficult**
-1. How does BigQuery Omni handle data consistency across different cloud providers?
-2. How can I troubleshoot connectivity issues with BigQuery Omni?
-3. Describe the architecture of BigQuery Omni and how it interacts with other Google Cloud services.
-4. How can I use BigQuery Omni to build a multi-cloud data lake?
-5. What are the current limitations of BigQuery Omni, and what are the plans for future development?
+1. How can you implement a complex multi-tenant data architecture in Omni?
+2. What strategies can be used to manage large-scale data model changes in Omni without disrupting users?
+3. How can you design a comprehensive data governance framework using Omni's features?
+4. Explain how to build a custom integration between Omni and a proprietary data source.
+5. How can you implement advanced anomaly detection and alerting in Omni?
 
 ---
 
